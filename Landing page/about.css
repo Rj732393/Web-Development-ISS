@@ -1,0 +1,16 @@
+.about-us{
+    margin: 0 100px;
+    text-align: justify;  
+    padding: 40px 20px;
+    color: #333;
+    line-height: 1.6;
+    
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
