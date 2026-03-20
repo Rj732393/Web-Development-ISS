@@ -13,85 +13,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
-
 <body>
-
-<!-- Navbar -->
-     <header class="nav_bar">
-    <img src="../Images/logo.jpeg" alt="Logo">
-    <nav class="nav1">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
-        <a href="career.html">Careers</a>
-        <a href="aboutus.html">About us</a>
-    </nav>
-   </header>
-
-
-<!-- Heading -->
-<div class="heading">
-    <h1>Our Services 🚀</h1>
-    <p>We provide best IT solutions</p>
-</div>
-
-<!-- Services -->
-<div class="services-container">
-
-    <div class="card" onclick="openModal('Web Development')">
-        <i class="fas fa-code"></i>
-        <h3>Web Development</h3>
-        <p>Modern and responsive websites.</p>
-        <a class="btn">Learn More</a>
-    </div>
-
-    <div class="card" onclick="openModal('Cloud Solutions')">
-        <i class="fas fa-cloud"></i>
-        <h3>Cloud Solutions</h3>
-        <p>AWS & cloud deployment.</p>
-        <a class="btn">Learn More</a>
-    </div>
-
-    <div class="card" onclick="openModal('DevOps')">
-        <i class="fas fa-cogs"></i>
-        <h3>DevOps</h3>
-        <p>CI/CD & automation pipelines.</p>
-        <a class="btn">Learn More</a>
-    </div>
-
-    <div class="card" onclick="openModal('App Development')">
-        <i class="fas fa-mobile-alt"></i>
-        <h3>App Development</h3>
-        <p>Android & iOS apps.</p>
-        <a class="btn">Learn More</a>
-    </div>
-
-</div>
-
-<!-- Modal -->
-<div class="modal" id="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h2 id="modal-title"></h2>
-        <p>We provide high quality services with latest technology.</p>
-    </div>
-</div>
-
-
-<!-- JavaScript -->
-<script>
-function openModal(service){
-    document.getElementById("modal").style.display="flex";
-    document.getElementById("modal-title").innerText=service;
-}
-
-function closeModal(){
-    document.getElementById("modal").style.display="none";
-}
-</script>
-
- <!-- Footer -->
- <footer class="footer">
+<footer class="footer">
 
     <div class="footer-container">
 
@@ -137,7 +60,7 @@ function closeModal(){
           <li><a href="index.html">Portfolio</a></li>
           <li><a href="aboutus.html">Case Studies</a></li>
           <li><a href="contact.html">Support</a></li>
-          <li><a href="contact.html">FAQ</a></li>
+          
         </ul>
       </div>
 
@@ -149,5 +72,5 @@ function closeModal(){
     </div>
 
   </footer>
+
 </body>
-</html>
